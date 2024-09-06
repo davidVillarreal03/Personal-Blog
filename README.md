@@ -22,8 +22,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 User must follow the github link that is deployed to access the blog post site
 
 ## Usage
-
-to be edited
+![alt text](/assets/images/challenge-4.png)
+![alt text](/assets/images/challenge-4(2).png)
+![alt text](/assets/images/challenge-4(3).png)
 
 ## Credits
 
