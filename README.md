@@ -1,17 +1,12 @@
-# Module-Challenge-04=Personal-Blog
+# Personal Blog
+## license
+![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-    Motivation was to be able to properly make a portfolio to impress employers with history of projects and exercise skills learned from the bootcamp.
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.") 
-    To show companies what I am capable of when they look over the portfolio page and impress them with past projects, describe myself and how they could get into contact with me.
-- What problem does it solve?
-    It solves the lack of portfolio I had before this challenge and has given me a resource I did not have before hand.
-- What did you learn?
-   The ability to make a well structured page for companies to review and determine if I am a reliable employee for part time or full time positions. I was able to make a page based off the modules we had reviewed and I can put together a structured portfolio. 
+This project was to show my complete understanding of css, html and javascript to make an interactive blog to let users log what they are feeling and will include their own username, title and description of that blog post.
 
 ## Table of Contents (Optional)
 
@@ -24,18 +19,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+User must follow the github link that is deployed to access the blog post site
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-    ![screen shot of my webpage](assets/images/screenshot.png)
+to be edited
 
 ## Credits
 
@@ -46,18 +34,35 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well.
 
 ## License
+https://choosealicense.com/licenses/mit/
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
+
+Copyright (c) [2024] [David Villarreal]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Features
 
@@ -65,8 +70,13 @@ If your project has a lot of features, list them here.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+If you would like to contribute to this project you must follow the gudelines from github for gitfork
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+To test the site the user can check that the site has the option for a dark theme switch and can click the moon icon to see, the user can also test that the site will take different usernames to attach them to the message they would like. 
+
+## Questions
+For questions about the project, you can reach me via:
+- GitHub: [davidVillarreal03](https://github.com/davidVillarreal03)
+- Email: djmarch92014@gmail.com
