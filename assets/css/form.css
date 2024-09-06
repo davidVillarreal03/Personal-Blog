@@ -1,89 +1,127 @@
-.formsheet-container{
-    width: 45%;
-    background-color: white;
-    color: black;
-    padding-top: 146px;
-    padding-bottom: 90px;
-    margin-top: 30px;
-    margin-bottom: -30px;
-    position: relative;
-    left: 450px;
-    top: -30px;
-    align-self: center;
+/* added a root background color and font. */
+:root {
+  --background-color: #000000; 
+  --font-family: "DM Serif Display", serif;
 }
-
-.formsheet-group{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+/* added container for imput boxes to layout page properly. */
+.input-box-container {
+  height: 500px;
+  width: 58%;
+  padding-top: 50px;
+  padding-left: 100px;
+  border-left: 20px double black;
+  box-sizing: border-box;
 }
-
-.formsheet-control {
-    display:block;
-    width:80%;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+/* added margin to imput box. */
+.input-box {
+  margin: 20px;
 }
+/* added top line styling. */
+.top-line {
+  border-bottom: 5px solid #000000;
+  padding-bottom: 5px;
+}
+/* added float to all elements. */
+.circle-box, .separator-line, #blogForm, .input-box-container {
+  float: left; 
+}
+/* added margins around main elements. */
+.circle-box {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 60px;
 
-#username {
-    margin-left: 19px;
-    width: 96%;
-    margin-top: 15px;
-    border-radius: 5px;
-  }
+}
+/* created a round text box. */
+
+/* stylying for line to seperate page. */
+.separator-line {
+  width: 2px;
+  height: 550px; 
+  background-color: var(--background-color);
+  margin: 0;
+  padding-right: 5px;
+  float: left;
+}
+/* added margin to form. */
+#blogForm {
+margin: 0;
+}
+/* added width and margin to imput. */
+#blogForm input {
+  margin-bottom: 10px; 
+  width: 99%;
   
-#title {
-    margin-left: 19px;
-    width: 96%;
-    margin-top: 15px;
-    border-radius: 5px;
-  }
-
+}
+/* added style to content box. */
 #content {
-    margin-top: 15px;
-    margin-left: 19px;
-    line-height: 2;
-    width: 96%;
-    border-radius: 5px;
-  }
-
-#button {
-    width: 96%;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    margin-left: 19px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-  }
-  
-.formsheet-container h3{
-  margin-left: 340px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  width: 98%;
+  height: 100px;
+  border-radius: 4px;
+}
+/* styling for circle box to have a gradient from gray to orange */
+.grainy-lines {
+  position: relative;
+  background: linear-gradient(to bottom, orange, gray);
+}
+/* 
+style for lines in circle. */
+.grainy-lines::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 10px, transparent 10px); border-radius: 50%;
+  background-size: 100% 20px; 
+}
+/* light mode color */
+body {
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+/* dark mode color */
+.dark-mode {
+  background-color: #333;
+  color: #f0f0f0; 
+}
+/* 
+style for submit button. */
+.black-button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-family: var(--font-family);;
+  font-size: 18px; 
+  font-weight: bold;
+  padding: 15px; 
+  border: none;
+  cursor: pointer;
+}
+/* space between content and submit button. */
+.button-space-bottom {
+  padding-bottom:10px;
+}
+/* font for all imput boxes. */
+.un, .au, .con {
+  font-family: var(--font-family);;
 }
 
-.formsheet-container label {
-    margin-left: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-  
-.vertical {
-    border-left: 6px solid black;
-    height: 802px;
-    position: absolute;
-    left: 55%;
-    margin-left: -3px;
-    top: 126px;
-}
+/* align footer text. */
 
-.verticaltwo {
-    border-left: 6px solid black;
-    height: 802px;
-    position: absolute;
-    left: 54%;
-    margin-left: -3px;
-    top: 126px;
+footer {
+  text-align: center;
+  font-family: var(--font-family);;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
 }
