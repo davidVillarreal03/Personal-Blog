@@ -1,0 +1,43 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+}
+.header-container {
+    height: 90px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.body-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.header-container::before {
+    position: relative;
+    top: 0px;
+    left: 880px;
+    content: "☀️";
+    cursor: pointer;
+    
+}
+
+hr {
+        border: none;
+        height: 5px;
+        /* Set the hr color */
+        color: black;  /* old IE */
+        background-color: black;  /* Modern Browsers */
+}

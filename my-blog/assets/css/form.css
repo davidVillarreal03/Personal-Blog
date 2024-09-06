@@ -1,0 +1,89 @@
+.formsheet-container{
+    width: 45%;
+    background-color: white;
+    color: black;
+    padding-top: 146px;
+    padding-bottom: 90px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    position: relative;
+    left: 450px;
+    top: -30px;
+    align-self: center;
+}
+
+.formsheet-group{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.formsheet-control {
+    display:block;
+    width:80%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#username {
+    margin-left: 19px;
+    width: 96%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+#title {
+    margin-left: 19px;
+    width: 96%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+#content {
+    margin-top: 15px;
+    margin-left: 19px;
+    line-height: 2;
+    width: 96%;
+    border-radius: 5px;
+  }
+
+#button {
+    width: 96%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 19px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  
+.formsheet-container h3{
+  margin-left: 340px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.formsheet-container label {
+    margin-left: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.vertical {
+    border-left: 6px solid black;
+    height: 802px;
+    position: absolute;
+    left: 55%;
+    margin-left: -3px;
+    top: 126px;
+}
+
+.verticaltwo {
+    border-left: 6px solid black;
+    height: 802px;
+    position: absolute;
+    left: 54%;
+    margin-left: -3px;
+    top: 126px;
+}
