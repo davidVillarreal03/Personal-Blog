@@ -19,7 +19,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-User must follow the github link that is deployed to access the blog post site
+User must follow the github [link](https://davidvillarreal03.github.io/Personal-Blog/) that is deployed to access the blog post site
 
 ## Usage
 ![alt text](/assets/images/challenge-4.png)
